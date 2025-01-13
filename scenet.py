@@ -1,44 +1,47 @@
 import json
 
-# Load word timing, scenes, and script files
-with open("wordtiming.json", "r") as wt_file:
-    word_timings = json.load(wt_file)
+def create_scene_timings(wordtiming_file_path, scenes_file_path, output_file_path):
+    # Load JSON files
+    with open(wordtiming_file_path, 'r') as wordtiming_file:
+        wordtiming_data = json.load(wordtiming_file)
 
-with open("scenes.json", "r") as sc_file:
-    scenes = json.load(sc_file)
+    with open(scenes_file_path, 'r') as scenes_file:
+        scenes_data = json.load(scenes_file)
 
-with open("script.txt", "r") as script_file:
-    script_text = script_file.read()
+    # Create a list of scenes with start and end times
+    scenes_timing = {}
+    current_index = 0
 
-def get_scene_timing(scene_text, word_timings):
-    words = scene_text.split()
-    start_time = None
-    end_time = None
+    for scene_key, scene_text in scenes_data.items():
+        # Split the scene text into words
+        scene_words = scene_text.split()
+        word_count = len(scene_words)
 
-    for timing in word_timings:
-        if start_time is None and timing["word"].lower() == words[0].lower():
-            start_time = timing["start_time"]
+        # Get the corresponding words from wordtiming_data
+        scene_word_timings = wordtiming_data[current_index:current_index + word_count]
 
-        if timing["word"].lower() == words[-1].lower():
-            end_time = timing["end_time"]
+        # Calculate start and end times for the scene
+        if scene_word_timings:
+            scene_start_time = scene_word_timings[0]["start_time"]
+            scene_end_time = scene_word_timings[-1]["end_time"]
 
-        if start_time and end_time:
-            break
+            scenes_timing[scene_key] = {
+                "start_time": scene_start_time,
+                "end_time": scene_end_time
+            }
+        else:
+            print(f"Error: Unable to determine timings for scene '{scene_key}'.")
 
-    return start_time, end_time
+        # Update the current index
+        current_index += word_count
 
-scene_timing = {}
+    # Save the new JSON file with scene start and end times
+    with open(output_file_path, 'w') as output_file:
+        json.dump(scenes_timing, output_file, indent=4)
 
-for scene_name, scene_fragment in scenes.items():
-    # Match scene fragment to the script
-    if scene_fragment in script_text:
-        start, end = get_scene_timing(scene_fragment, word_timings)
-        scene_timing[scene_name] = {"start_time": start, "end_time": end}
-    else:
-        scene_timing[scene_name] = {"start_time": None, "end_time": None}  # Handle unmatched scenes
+if __name__ == "__main__":
+    wordtiming_file_path = "wordtiming.json"
+    scenes_file_path = "scenes.json"
+    output_file_path = "scenes_timing.json"
 
-# Save the scene timing JSON file
-with open("scenetiming.json", "w") as st_file:
-    json.dump(scene_timing, st_file, indent=4)
-
-print("Scenetiming.json has been created successfully.")
+    create_scene_timings(wordtiming_file_path, scenes_file_path, output_file_path)

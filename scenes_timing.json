@@ -1,0 +1,62 @@
+{
+    "scene1": {
+        "start_time": 0.0,
+        "end_time": 0.778
+    },
+    "scene2": {
+        "start_time": 0.859,
+        "end_time": 2.252
+    },
+    "scene3": {
+        "start_time": 2.299,
+        "end_time": 3.088
+    },
+    "scene4": {
+        "start_time": 3.158,
+        "end_time": 5.004
+    },
+    "scene5": {
+        "start_time": 5.062,
+        "end_time": 6.838
+    },
+    "scene6": {
+        "start_time": 6.885,
+        "end_time": 8.197
+    },
+    "scene7": {
+        "start_time": 8.231,
+        "end_time": 10.124
+    },
+    "scene8": {
+        "start_time": 10.182,
+        "end_time": 11.923
+    },
+    "scene9": {
+        "start_time": 11.97,
+        "end_time": 12.934
+    },
+    "scene10": {
+        "start_time": 13.317,
+        "end_time": 14.059
+    },
+    "scene11": {
+        "start_time": 14.106,
+        "end_time": 15.174
+    },
+    "scene12": {
+        "start_time": 15.232,
+        "end_time": 15.952
+    },
+    "scene13": {
+        "start_time": 15.998,
+        "end_time": 17.02
+    },
+    "scene14": {
+        "start_time": 17.194,
+        "end_time": 17.984
+    },
+    "scene15": {
+        "start_time": 18.042,
+        "end_time": 19.087
+    }
+}

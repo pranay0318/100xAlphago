@@ -1,0 +1,267 @@
+[
+    {
+        "word": "In",
+        "start_time": 0.0,
+        "end_time": 0.151
+    },
+    {
+        "word": "a",
+        "start_time": 0.197,
+        "end_time": 0.221
+    },
+    {
+        "word": "forest,",
+        "start_time": 0.302,
+        "end_time": 0.72
+    },
+    {
+        "word": "a",
+        "start_time": 0.743,
+        "end_time": 0.778
+    },
+    {
+        "word": "cocky",
+        "start_time": 0.859,
+        "end_time": 1.219
+    },
+    {
+        "word": "rabbit",
+        "start_time": 1.312,
+        "end_time": 1.672
+    },
+    {
+        "word": "challenged",
+        "start_time": 1.741,
+        "end_time": 2.183
+    },
+    {
+        "word": "a",
+        "start_time": 2.218,
+        "end_time": 2.252
+    },
+    {
+        "word": "slow",
+        "start_time": 2.299,
+        "end_time": 2.543
+    },
+    {
+        "word": "turtle",
+        "start_time": 2.601,
+        "end_time": 2.879
+    },
+    {
+        "word": "to",
+        "start_time": 2.914,
+        "end_time": 2.984
+    },
+    {
+        "word": "a",
+        "start_time": 3.065,
+        "end_time": 3.088
+    },
+    {
+        "word": "race.",
+        "start_time": 3.158,
+        "end_time": 3.611
+    },
+    {
+        "word": "The",
+        "start_time": 3.994,
+        "end_time": 4.11
+    },
+    {
+        "word": "rabbit",
+        "start_time": 4.191,
+        "end_time": 4.493
+    },
+    {
+        "word": "sprinted",
+        "start_time": 4.563,
+        "end_time": 5.004
+    },
+    {
+        "word": "ahead",
+        "start_time": 5.062,
+        "end_time": 5.399
+    },
+    {
+        "word": "and,",
+        "start_time": 5.468,
+        "end_time": 5.828
+    },
+    {
+        "word": "confident",
+        "start_time": 6.037,
+        "end_time": 6.618
+    },
+    {
+        "word": "he'd",
+        "start_time": 6.676,
+        "end_time": 6.838
+    },
+    {
+        "word": "win,",
+        "start_time": 6.885,
+        "end_time": 7.349
+    },
+    {
+        "word": "napped",
+        "start_time": 7.674,
+        "end_time": 7.953
+    },
+    {
+        "word": "near",
+        "start_time": 7.976,
+        "end_time": 8.092
+    },
+    {
+        "word": "the",
+        "start_time": 8.127,
+        "end_time": 8.197
+    },
+    {
+        "word": "finish",
+        "start_time": 8.231,
+        "end_time": 8.487
+    },
+    {
+        "word": "line.",
+        "start_time": 8.557,
+        "end_time": 8.94
+    },
+    {
+        "word": "Meanwhile,",
+        "start_time": 9.543,
+        "end_time": 10.031
+    },
+    {
+        "word": "the",
+        "start_time": 10.054,
+        "end_time": 10.124
+    },
+    {
+        "word": "turtle",
+        "start_time": 10.182,
+        "end_time": 10.461
+    },
+    {
+        "word": "moved",
+        "start_time": 10.495,
+        "end_time": 10.704
+    },
+    {
+        "word": "steadily,",
+        "start_time": 10.739,
+        "end_time": 11.378
+    },
+    {
+        "word": "passing",
+        "start_time": 11.529,
+        "end_time": 11.923
+    },
+    {
+        "word": "the",
+        "start_time": 11.97,
+        "end_time": 12.04
+    },
+    {
+        "word": "sleeping",
+        "start_time": 12.074,
+        "end_time": 12.411
+    },
+    {
+        "word": "rabbit.",
+        "start_time": 12.481,
+        "end_time": 12.934
+    },
+    {
+        "word": "The",
+        "start_time": 13.317,
+        "end_time": 13.444
+    },
+    {
+        "word": "rabbit",
+        "start_time": 13.526,
+        "end_time": 13.804
+    },
+    {
+        "word": "woke",
+        "start_time": 13.851,
+        "end_time": 14.059
+    },
+    {
+        "word": "too",
+        "start_time": 14.106,
+        "end_time": 14.268
+    },
+    {
+        "word": "late;",
+        "start_time": 14.338,
+        "end_time": 14.744
+    },
+    {
+        "word": "the",
+        "start_time": 15.07,
+        "end_time": 15.174
+    },
+    {
+        "word": "turtle",
+        "start_time": 15.232,
+        "end_time": 15.522
+    },
+    {
+        "word": "crossed",
+        "start_time": 15.569,
+        "end_time": 15.859
+    },
+    {
+        "word": "the",
+        "start_time": 15.882,
+        "end_time": 15.952
+    },
+    {
+        "word": "finish",
+        "start_time": 15.998,
+        "end_time": 16.242
+    },
+    {
+        "word": "line",
+        "start_time": 16.3,
+        "end_time": 16.509
+    },
+    {
+        "word": "first.",
+        "start_time": 16.556,
+        "end_time": 17.02
+    },
+    {
+        "word": "Slow",
+        "start_time": 17.194,
+        "end_time": 17.484
+    },
+    {
+        "word": "and",
+        "start_time": 17.542,
+        "end_time": 17.624
+    },
+    {
+        "word": "steady",
+        "start_time": 17.67,
+        "end_time": 17.984
+    },
+    {
+        "word": "wins",
+        "start_time": 18.042,
+        "end_time": 18.251
+    },
+    {
+        "word": "the",
+        "start_time": 18.309,
+        "end_time": 18.378
+    },
+    {
+        "word": "race.",
+        "start_time": 18.436,
+        "end_time": 19.087
+    }
+]
